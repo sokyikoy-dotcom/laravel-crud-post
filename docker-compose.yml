@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     working_dir: /var/www/html
     environment:
-      APP_NAME: "Sok Yi Post Manager"
+      APP_NAME: "Sok Yi Post Manager on this day"
       APP_ENV: local
       APP_DEBUG: "true"
       APP_URL: http://localhost:8080
